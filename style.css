@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap');
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contenedor{
+padding: 60px 0;
+width: 90%;
+max-width: 1000px;
+margin: auto;
+overflow: hidden;
+}
+.titulo{
+    color: blueviolet;
+    font-size: 30px;
+    text-align: center;
+   margin-bottom: 60px;
+}
+
+/* Header */
+header{
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    background:  hsla(256, 35%, 47%, 0.574);  
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eaafc8, hsla(256, 35%, 47%, 0.549));
+      /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eaafc8, hsla(256, 35%, 47%, 0.547))
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+     background-size: cover;
+     background-attachment: fixed;
+     position: relative;
+
+}
+
+.texto-header h1{
+font-size: 50px;
+color: #fff;
+text-align: center;
+
+}
+
+.texto-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+}
+
+nav{
+text-align: right;
+padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color: aliceblue;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+header .texto-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contenedorsobre-nosotras{
+    height: 500px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.conimg{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    margin-top: 30px;
+}
+
+.contenidos-textos{
+    height: 150px;
+    width: 500px;
+    background-color:#fff;
+    margin-right: 200px;
+}
+.Nuestros{
+    text-align: center;
+}
+
+.texto-nuestrasredes{
+    font-family: 'Fira Sans', sans-serif;
+    color: darkorchid;
+}
